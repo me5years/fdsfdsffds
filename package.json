@@ -1,0 +1,17 @@
+{
+  "name": "cloudflare-workers-vpn",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "self-test": "node scripts/self-test.mjs",
+    "build-blocklist": "node scripts/build-blocklist.mjs",
+    "telegram-schedule-bot": "node scripts/telegram-schedule-bot.mjs",
+    "telegram-schedule-dry-run": "node scripts/telegram-schedule-bot.mjs --dry-run"
+  },
+  "devDependencies": {
+    "wrangler": "^4.14.0"
+  }
+}

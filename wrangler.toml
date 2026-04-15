@@ -1,0 +1,14 @@
+name = "cf-vpn-ft6yok"
+main = "src/index.js"
+compatibility_date = "2025-02-05"
+
+[vars]
+UUID = "116a2ae6-ec7c-48de-8167-6df2cff1b712"
+WS_PATH = "8ie27gsoxrktad"
+SUBSCRIPTION_TOKEN = "njhg16wor5xa84m2p9"
+USER_NICKNAME = "Ilya VPN"
+DNS_OVER_HTTPS = "https://1.1.1.1/dns-query"
+FALLBACK_URL = "https://www.cloudflare.com/"
+
+[observability.logs]
+enabled = true

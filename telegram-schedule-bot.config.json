@@ -1,0 +1,8 @@
+{
+  "botName": "Schedule Bot",
+  "buttonText": "Отправь расписание",
+  "yandexPublicUrl": "https://disk.yandex.ru/d/bxAEJ55nQmgUTg",
+  "timeZone": "Europe/Moscow",
+  "locale": "ru-RU",
+  "telegramParseMode": "HTML"
+}
